@@ -6,7 +6,7 @@ button.addEventListener("click",() =>{
 );
 
 document.addEventListener("click",(e) =>{
-    if(!e.target.closes(".dropdown")){
+    if(!e.target.closest(".dropdown")){
         menu.classList.remove("show");
     }
     }
